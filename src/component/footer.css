@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+
+}
+.footer-content{
+    padding: 4rem;
+    display: grid;
+    background: rgb(70, 66, 66);
+    grid-template-columns: repeat(5, 1fr);
+
+}
+p span{
+    display: block;
+  
+}
+.footer-title{
+    font-size: 2.4rem;
+    color: white;
+}
+.icons{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem ;
+    color: rgb(138, 118, 8);;
+    font-size: 3rem;
+}
+.copyright, .contctus-column{
+    color: #ddd;
+    font-size:1.8rem ;
+}
+.home-container a:hover,
+.home-container a:active{
+    color: white;
+}
+.acount-column{
+    color:#ddd;
+}

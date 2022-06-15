@@ -1,0 +1,14 @@
+.hello{
+    color: red;
+}
+#fu{
+    font-size: 34px;
+
+}
+.card{
+    box-shadow: 3px 3px 3px black;
+    width: 700px;
+    padding: 10px;
+    display: flex;
+
+}
