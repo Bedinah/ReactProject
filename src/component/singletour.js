@@ -6,7 +6,7 @@ import { Card, Image, Space, Typography,Form, DatePicker,
 const { Text, Title } = Typography;
 const SingleTour = ({ data }) => {
   return (
-    <div style={{ width: "40rem", height: "auto", padding: "5px" }}>
+    <div style={{ width: "35rem", height: "auto", padding: "5px" }}>
       <Card>
         <Space direction="vertical">
         <Title level={4} style={{ color: "rgb(138, 118, 8)" }}>
@@ -16,7 +16,7 @@ const SingleTour = ({ data }) => {
           <Image
           preview={true}
           src={data?.picture}
-          style={{width:"28rem", miHeight:"20rem"}}
+          style={{width:"17rem", miHeight:"20rem"}}
           /> 
            
           </Carousel> 
@@ -36,7 +36,7 @@ const SingleTour = ({ data }) => {
             <Text strong> {data?.doneBy}</Text>
           </Space>
 
-    <Card title="Book Here !" >
+    <Card title="Book Here !" style={{width:"28rem"}}>
         <Space direction="vertical">
           <Form >
 

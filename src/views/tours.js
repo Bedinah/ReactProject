@@ -50,7 +50,7 @@ const Tours = () => {
           ))}
         </Card>
       </div>
-      <Drawer
+      <Drawer 
         title="Single Tour!"
         placement="right"
         onClose={() => {
