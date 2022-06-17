@@ -6,7 +6,7 @@ import { Card, Image, Space, Typography,Form, DatePicker,
 const { Text, Title } = Typography;
 const SingleTour = ({ data }) => {
   return (
-    <div style={{ width: "30rem", height: "auto", padding: "5px" }}>
+    <div style={{ width: "40rem", height: "auto", padding: "5px" }}>
       <Card>
         <Space direction="vertical">
         <Title level={4} style={{ color: "rgb(138, 118, 8)" }}>
@@ -16,13 +16,10 @@ const SingleTour = ({ data }) => {
           <Image
           preview={true}
           src={data?.picture}
-          style={{width:"28rem", miHeight:"23rem"}}
+          style={{width:"28rem", miHeight:"20rem"}}
           /> 
-           <Image
-          preview={true}
-          src={data?.photo}
-          style={{width:"28rem", miHeight:"23rem"}}
-          /> </Carousel>
+           
+          </Carousel> 
           
           
           <Title level={2} style={{color:"rgb(138, 118, 8)"}}>Areas to visit</Title>
@@ -44,19 +41,19 @@ const SingleTour = ({ data }) => {
           <Form >
 
 
-<Form.Item label="Input">
-        <Input />
+<Form.Item label="First Name">
+        <Input placeholder="First Name"/>
       </Form.Item>
 
-      <Form.Item label="Input">
-        <Input />
+      <Form.Item label="Second Name">
+        <Input placeholder="Second Name"/>
       </Form.Item>
 
-      <Form.Item label="email">
-        <Input placeholder="email" />
+      <Form.Item label="Email">
+        <Input placeholder="Email" />
       </Form.Item>
 
-<Form.Item label="DatePicker">
+<Form.Item label="Date">
         <DatePicker />
       </Form.Item>
       <div className="btn">

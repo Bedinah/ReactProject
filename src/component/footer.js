@@ -1,54 +1,84 @@
 import React from "react";
-import LogoFooter from '../assets/images/mylogo.jpg';
-import {FacebookOutlined, TwitterOutlined, InstagramOutlined  } from "@ant-design/icons";
-import './footer.css'
+import LogoFooter from "../assets/images/mylogo.jpg";
+import {
+  FacebookOutlined,
+  TwitterOutlined,
+  InstagramOutlined,
+} from "@ant-design/icons";
+import "./footer.css";
 
+const Footer = () => {
+  const date = new Date();
+  let year = date.getFullYear();
+  return (
+    <>
+      <div className="footer-content">
+        <div className="logo-column">
+          <img src={LogoFooter} alt="" className="logo-img"></img>
+          <div className="icons">
+            <FacebookOutlined />
+            <TwitterOutlined />
+            <InstagramOutlined />
+          </div>
 
-const Footer=()=>{
-    const date = new Date();
-    let year =date.getFullYear();
-    return (
-        <>
-        <div className="footer-content">
-            <div className="logo-column">
-                <img src={LogoFooter} alt="" className="logo-img"></img>
-                <div className="icons">
-                <FacebookOutlined />
-                <TwitterOutlined />
-                <InstagramOutlined />
-                </div>
-            
-            <p className="copyright"> copyright &copy; {year} by sheCanCode <span>Inc, All right reserved</span></p>
-            </div>
-        
+          <p className="copyright">
+            {" "}
+            copyright &copy; {year} by sheCanCode{" "}
+            <span>Inc, All right reserved</span>
+          </p>
+        </div>
+
         <div className="contctus-column">
-            <h3 className="footer-title">Contact-Us</h3>
-            <p>623 Kacyiru st,,2nd floor, <span>kigali Rwanda</span></p>
-            <p><a href="tel:+250-788-716-971" />tel:+250-788-716-971</p>
-            <p><a href="mail to:webmaster@example.com" />bazubedinah@gmail.com</p>
+          <h3 className="footer-title">Contact-Us</h3>
+          <p>
+            623 Kacyiru st,2nd floor, <span>kigali Rwanda</span>
+          </p>
+          <p>
+            <a href="tel:+250-788-716-971" />
+            tel:+250-788-716-971
+          </p>
+          <p>
+            <a href="mail to:webmaster@example.com" />
+            bazubedinah@gmail.com
+          </p>
         </div>
         <div className="acount-column">
-        <h3 className="footer-title">Account</h3>
-        <p><a href="#">Create Account </a></p>
-        <p><a href="#">Sign-in </a></p>
-       </div>
+          <h3 className="footer-title">Account</h3>
+          <p>
+            <a href="#">Create Account </a>
+          </p>
+          <p>
+            <a href="#">Sign-in </a>
+          </p>
+        </div>
 
         <div className="acount-column">
-        <h3 className="footer-title">Company</h3>
-        <p><a href="#">About-company </a></p>
-        <p><a href="#">Carrers </a></p>
-        <p><a href="#">partner </a></p>
+          <h3 className="footer-title">Company</h3>
+          <p>
+            <a href="#">About-company </a>
+          </p>
+          <p>
+            <a href="#">Carrers </a>
+          </p>
+          <p>
+            <a href="#">partner </a>
+          </p>
         </div>
 
         <div className="acount-column">
-        <h3 className="footer-title">Resources</h3>
-        <p><a href="#">Shecancode directory </a></p>
-        <p><a href="#">help center </a></p>
-        <p><a href="#">privacy & term </a></p>
+          <h3 className="footer-title">Resources</h3>
+          <p>
+            <a href="#">Shecancode directory </a>
+          </p>
+          <p>
+            <a href="#">help center </a>
+          </p>
+          <p>
+            <a href="#">privacy & term </a>
+          </p>
         </div>
-        </div>
-        
-        </>
-    );
+      </div>
+    </>
+  );
 };
 export default Footer;
