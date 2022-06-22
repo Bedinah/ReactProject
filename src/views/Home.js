@@ -44,7 +44,6 @@ const Home = () => {
           <i>
             <h2 className="top-tour"> TOP-TOURS</h2>
           </i>
-          {/* <hr className="align"></hr> */}
         </div>
       </div>
     </>

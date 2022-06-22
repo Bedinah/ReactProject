@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "./navbar";
 import Footer from "./footer";
+
 const HomeLayout=({children})=>{
     return(
 <>

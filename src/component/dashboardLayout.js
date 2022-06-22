@@ -8,10 +8,12 @@ import {
   } from '@ant-design/icons';
   import { Layout, Menu } from 'antd';
   import React, { useState } from 'react';
-  import NewTours from '../views/DashBoard/newTour'
+  import {useNavigate} from "react-router-dom";
+  import './dashboardLayout.css'
   const { Header, Sider, Content } = Layout;
   
-  const DashboardLayout = (children) => {
+  const DashboardLayout = ({children}) => {
+    const navigate = useNavigate ();
     const [collapsed, setCollapsed] = useState(false);
     return (
       <Layout>
@@ -24,18 +26,18 @@ import {
             items={[
               {
                 key: '1',
-                icon: <UserOutlined />,
-                label: 'nav 1',
+                icon: <UserOutlined onClick={()=>navigate("/admin/dashboard")}/>,
+                label: <h3 onClick={()=>navigate("/admin/dashboard")}  style={{color:"white"}}>Dashboard</h3>,
               },
               {
                 key: '2',
-                icon: <VideoCameraOutlined />,
-                label: 'nav 2',
+                icon: <VideoCameraOutlined onClick={()=>navigate("/admin/users")}/>,
+                label: <h3 onClick={()=>navigate("/admin/users")}  style={{color:"white"}}>Manage Users</h3>,
               },
               {
                 key: '3',
-                icon: <UploadOutlined />,
-                label: 'nav 3',
+                icon: <UploadOutlined onClick={()=>navigate("/admin/trips")}/>,
+                label: <h3 onClick={()=>navigate("/admin/trips")}  style={{color:"white"}}>Manage Trips</h3>,
               },
             ]}
           />
@@ -57,10 +59,10 @@ import {
             style={{
               margin: '24px 16px',
               padding: 24,
-              minHeight: 280,
+              minHeight: '80vh',
             }}
           >
-            <NewTours>{<div style={{ minheight:"100vh"}}>{children}</div>}</NewTours>
+            {children}
           </Content>
         </Layout>
       </Layout>
