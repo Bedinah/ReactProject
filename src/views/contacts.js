@@ -100,10 +100,10 @@ const Contacts = () => {
                 },
               ]}
             >
-              <InputNumber placeholder="YourAge" style={{padding:".3rem 4rem",borderRadius:"3rem"}} />
+              <InputNumber placeholder="YourAge"  />
             </Form.Item>
             <Form.Item name={["user", "Message"]} label="Message">
-              <Input.TextArea placeholder="Write Here" style={{padding:"1.3rem 7rem",borderRadius:"3rem"}} />
+              <Input.TextArea placeholder="Write Here" style={{padding:"1.3rem 2rem",borderRadius:"3rem"}} />
             </Form.Item>
 <div className="batoni">
             <Button type="primary" htmlType="Send" style={{ color:"white", borderRadius:"3rem",fontWeight:"500", backgroundColor:"black"}}>
