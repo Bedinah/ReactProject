@@ -3,7 +3,7 @@ import DashboardLayout from "../../component/dashboardLayout";
 
 const Dashboard = () => {
   return (
-    <DashboardLayout>
+    <DashboardLayout menuSelectorIndex='1'>
       <h1>Dashboard</h1>
     </DashboardLayout>
   );

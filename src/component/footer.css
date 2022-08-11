@@ -36,11 +36,7 @@ p span {
   color: white;
 }
 
-/* 
-.home-container a:hover,
-.home-container a:active{
-    color: white;
-} */
+
 .acount-column a:hover,
 .acount-column a:active {
   color: #ddd;

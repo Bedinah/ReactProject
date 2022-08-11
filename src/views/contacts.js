@@ -106,7 +106,8 @@ const Contacts = () => {
               <Input.TextArea placeholder="Write Here" style={{padding:"1.3rem 2rem",borderRadius:"3rem"}} />
             </Form.Item>
 <div className="batoni">
-            <Button type="primary" htmlType="Send" style={{ color:"white", borderRadius:"3rem",fontWeight:"500", backgroundColor:"black"}}>
+            <Button type="primary" htmlType="Send" style={{ color:"white", borderRadius:"3rem",fontWeight:"500", backgroundColor:"black"
+          }}>
               Send
             </Button>
             </div>

@@ -12,7 +12,7 @@ import {
   import './dashboardLayout.css'
   const { Header, Sider, Content } = Layout;
   
-  const DashboardLayout = ({children}) => {
+  const DashboardLayout = ({children,menuSelectorIndex}) => {
     const navigate = useNavigate ();
     const [collapsed, setCollapsed] = useState(false);
     return (
@@ -22,7 +22,7 @@ import {
           <Menu
             theme="dark"
             mode="inline"
-            defaultSelectedKeys={['1']}
+            defaultSelectedKeys={[`${menuSelectorIndex}`]}
             items={[
               {
                 key: '1',

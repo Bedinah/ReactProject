@@ -1,0 +1,59 @@
+[
+    {
+        
+            "type":"Lion",
+            "age":"10",
+            "gender":"male",
+            "number":"5",
+            "isAvailable":"true",
+            "location":"akagera",
+            "picture":"https://www.akageranationalparkrwanda.org/wp-content/uploads/2020/01/Sasa.jpg"
+            
+                },
+    
+    
+        {
+            "type":"Giraffe",
+            "age":"50",
+            "gender":"female",
+            "number":"75",
+            "isAvailable":"true",
+            "location":"akagera",
+            "picture":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT53A-rDHixqnR-WiOHFyphKHajTAu--W1vZhHXPuDQWrA2sah73G5s9QmdjTD2w0yzmQo&usqp=CAU"
+            
+                },
+                
+        {
+          "type":"Zebra",
+          "age":"30",
+          "gender":"male",
+          "number":"46",
+          "isAvailable":"true",
+         "location":"akagera",
+         "picture":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyK-Q-CM7Xhiq9h-gXk6pU-GNckmhwnIlFdyUKTOVFhAQrdydy7JC4g1x2juvV-jZy85I&usqp=CAU"
+                                
+         },
+
+         {
+            "type":"Elephant",
+            "age":"59",
+            "gender":"female",
+            "number":"39",
+            "isAvailable":"false",
+            "location":"akagera",
+            "picture":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD5bgypeL8N8sSvdFWvg7Q4f6Kx9JMMRPX1L3Zau47cqCWmq7KsSIUHOKxhPq5Dm8t4LU&usqp=CAU"
+            
+                },
+
+                {
+                    "type":"Monkey",
+                    "age":"19",
+                    "gender":"male",
+                    "number":"39",
+                    "isAvailable":"true",
+                    "location":"akagera",
+                    "picture":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVS68sRzzN5Og6q0uHg-fVREmk1jlebF7Eqj1QsxUSO60W4cVUznV4qYI8XOB9d_cNOJg&usqp=CAU"
+                    
+                        }
+                                    
+]

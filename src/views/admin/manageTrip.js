@@ -1,10 +1,13 @@
 import React from "react";
+import TripsTable from "../../component/admin/tripsTable";
 import DashboardLayout from "../../component/dashboardLayout";
 
 const ManageTrip = () => {
   return (
-    <DashboardLayout>
-      <h1>manage Trips</h1>
+    <DashboardLayout menuSelectorIndex='3'>
+     <TripsTable>
+
+     </TripsTable>
     </DashboardLayout>
   );
 };

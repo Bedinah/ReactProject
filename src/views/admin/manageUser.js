@@ -1,9 +1,10 @@
 import React from 'react'
 import DashboardLayout from "../../component/dashboardLayout";
+import UsersTable from '../../component/admin/usersTable';
 const ManageUser = () => {
   return (
-    <DashboardLayout>
-        <h1>manage Users</h1>
+    <DashboardLayout menuSelectorIndex='2'>
+        <UsersTable></UsersTable>
    </DashboardLayout>
   )
 }

@@ -1,0 +1,67 @@
+[
+  {
+    "names": "David Kabera",
+    "email": "kaberadavid@gmail.com",
+    "gender": "male",
+    "home": "musanze",
+    "isActive": true,
+    "about": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available",
+    "Phone": "+250785994485",
+    "profilePicture": "https://img.freepik.com/free-photo/handsome-young-man-with-new-stylish-haircut_176420-19637.jpg?t=st=1656069712~exp=1656070312~hmac=4ec64a4dbda299cf88c35e775d536f3aa6cb837a2e9d72bb98002463ba48c2bf&w=740"
+  },
+
+  {
+    "names": "Ange Abayo",
+    "email": "abayoange@gmail.com",
+    "gender": "female",
+    "home": "Kicukiro",
+    "isActive": true,
+    "about": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available",
+    "Phone": "+250785910485",
+    "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5GNLQ5Rq4_uCHZY7yxKiYXxjkkhro_aIbGQ&usqp=CAU"
+  },
+
+  {
+    "names": "Derick Buntu",
+    "email": "buntuderick@gmail.com",
+    "gender": "male",
+    "home": "Gasabo",
+    "isActive": false,
+    "about": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available",
+    "Phone": "+250784094485",
+    "profilePicture": "https://image.shutterstock.com/image-photo/head-shot-portrait-close-smiling-260nw-1714666150.jpg"
+  },
+
+  {
+    "names": "Karen Kundwa",
+    "email": "kundwakaren@gmail.com",
+    "gender": "female",
+    "home": "Komironko",
+    "isActive": true,
+    "about": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available",
+    "Phone": "+250785994675",
+    "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4NQidpCY2HlT3V1JPMBgXneJkl_ICzPwrbQklUggB0djBuKgA4S0aUsN14ZW9f8N2LDc&usqp=CAU"
+  },
+
+  {
+    "names": "David Kamanzi",
+    "email": "kaberadavid@gmail.com",
+    "gender": "male",
+    "home": "Gisozi",
+    "isActive": false,
+    "about": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available",
+    "Phone": "+250792994485",
+    "profilePicture": "https://expertphotography.b-cdn.net/wp-content/uploads/2020/08/social-media-profile-photos-3.jpg"
+  },
+
+  {
+    "names": "Chris Kabera",
+    "email": "kaberachris@gmail.com",
+    "gender": "male",
+    "home": "Rubavu",
+    "isActive": true,
+    "about": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available",
+    "Phone": "+250785910485",
+    "profilePicture": "https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg"
+  }
+]
